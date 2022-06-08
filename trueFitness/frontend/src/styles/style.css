@@ -1,0 +1,33 @@
+.edit {
+  padding: 20px 30px;
+  border-radius: 20px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.button {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 20px 30px;
+  color: #fff;
+  background: #FF6118;
+  border: 2px solid #FF6118;
+  border-radius: 20px;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  cursor: pointer;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+.button:hover {
+  background-color: #FFFFFF;
+  color: #FF6118;
+}
+
+.button:active {
+  color: #FFFFFF;
+  background-color: #FF6118;
+}
+/*# sourceMappingURL=style.css.map */

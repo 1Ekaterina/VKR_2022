@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "modalWindow.module.scss"
+    ],
+    "names": [],
+    "file": "modalWindow.module.css"
+}

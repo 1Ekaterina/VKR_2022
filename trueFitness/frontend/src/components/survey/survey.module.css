@@ -1,0 +1,338 @@
+.block__disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.survey {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.survey__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.survey__wrap {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+.survey__wrap_block {
+  max-width: 480px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+.survey__top {
+  width: 100%;
+  background: url("../../images/survey/oneAndTwo.jpg") center/contain no-repeat #000;
+  background-size: auto;
+  color: #ffffff;
+  padding: 35px 0 20px;
+}
+
+.survey__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 53px;
+  color: #FF6118;
+  margin-bottom: 30px;
+}
+
+.survey__top_block label {
+  margin-top: 30px;
+}
+
+.survey__inp {
+  border-bottom: 2px solid #FF6118;
+  width: 195px;
+  background-color: #000;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+}
+
+.survey__center {
+  width: 100%;
+  background: url("../../images/survey/survey-3.png") top/contain no-repeat, #fff url("../../images/survey/survey-4.png") bottom/contain no-repeat;
+  background-size: auto;
+  color: #000;
+  padding: 20px 0 20px;
+}
+
+.survey__bottom {
+  background: url("../../images/survey/survey-5.png") center/contain no-repeat #000;
+  color: #ffffff;
+  padding: 20px 0 77px;
+}
+
+.survey__wrap1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.survey__subtitle {
+  width: 108px;
+}
+
+.survey__subtitle h3 {
+  font-size: 18px;
+  line-height: 27px;
+  text-align: left;
+}
+
+.survey__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 37px;
+  margin-left: 30px;
+}
+
+.survey__item_gender {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.survey__item label:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.survey__item label {
+  font-size: 18px;
+  line-height: 27px;
+  text-align: left;
+}
+
+.survey__item label input {
+  margin-right: 17px;
+}
+
+.survey__item p {
+  margin-top: 5px;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.survey__btn {
+  max-width: 447px;
+  padding: 20px 30px;
+  color: #fff;
+  background: #FF6118;
+  border-radius: 20px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.survey__btn:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.range {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.range__span {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.range__span_black {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.range__spanMin {
+  margin-right: 9px;
+}
+
+.range__spanMax {
+  margin-left: 9px;
+}
+
+.span__range {
+  margin: 0 auto;
+  margin-top: 8px;
+}
+
+.survey__inpRange {
+  width: 195px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.survey__inpRange::-webkit-slider-thumb {
+  background: #FF6118;
+  border: #FF6118;
+  border-radius: 10px/100%;
+  cursor: pointer;
+  width: 10px;
+  height: 10px;
+  margin-top: -5px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.survey__inpRange:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.survey__inpRange_white {
+  background-color: #000;
+}
+
+.survey__inpRange_white::-webkit-slider-runnable-track {
+  height: 1px;
+  border: 2px solid #FFFFFF;
+}
+
+.survey__inpRange_black {
+  background-color: #fff;
+}
+
+.survey__inpRange_black::-webkit-slider-runnable-track {
+  height: 1px;
+  border: 2px solid #FF6118;
+}
+
+.radio {
+  padding-left: 36px;
+}
+
+.radio__input {
+  position: absolute;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.radio__box {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  margin-left: -36px;
+  margin-top: 3px;
+}
+
+.radio__box_white {
+  background-image: url(../../images/survey/radioWhite.png);
+}
+
+.radio__box_black {
+  background-image: url(../../images/survey/radioBlack.png);
+}
+
+.radio__input:checked + .radio__box {
+  background-image: url(../../images/survey/radioOrange.png);
+}
+
+.radio:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.check {
+  padding-left: 36px;
+}
+
+.check__input {
+  position: absolute;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.check__box {
+  position: absolute;
+  width: 18px;
+  height: 19px;
+  background-image: url(../../images/survey/checkMarkOff.png);
+  margin-left: -36px;
+  margin-top: 3px;
+}
+
+.check__input:checked + .check__box {
+  height: 22px;
+  margin-top: 0;
+  background-image: url(../../images/survey/checkMarkOn.png);
+}
+
+.check:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.survey__item_gender .survey__gender:first-child {
+  margin-right: 17px;
+  padding-right: 17px;
+  border-right: 2px solid #FFFFFF;
+}
+
+.survey__gender > input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+.survey__gender > input:hover + span:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.survey__gender > input:checked + span {
+  color: #FF6118;
+}
+/*# sourceMappingURL=survey.module.css.map */

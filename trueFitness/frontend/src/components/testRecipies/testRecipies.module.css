@@ -1,0 +1,66 @@
+.testRecipe {
+  width: 100%;
+}
+
+.testRecipe__wrap {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 63px 50px 91px;
+}
+
+.recipe {
+  max-width: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 5px solid #FF6118;
+  border-radius: 20px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.recipe__title {
+  margin-bottom: 20px;
+}
+
+.recipe__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card__content {
+  margin-right: 40px;
+  text-align: left;
+  max-width: 60%;
+}
+
+.card__item {
+  margin-bottom: 15px;
+}
+
+.card__img_block {
+  margin-left: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card__img {
+  max-width: 100%;
+}
+/*# sourceMappingURL=testRecipies.module.css.map */

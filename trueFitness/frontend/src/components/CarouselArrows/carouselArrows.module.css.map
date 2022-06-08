@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,gBAAgB,CAAC;EACf,UAAU,EAAE,KAAK;EACjB,MAAM,EAAE,OAAO;EACf,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,IAAI;CACZ;;AAED,AAAA,gBAAgB,AAAA,MAAM,CAAC;EACrB,UAAU,EAAE,IAAI;EAChB,KAAK,EAAE,oBAAoB;CAC5B;;AAED,AAAA,qBAAqB,CAAC;EACpB,wBAAwB;EACxB,YAAY,EAAE,IAAI;CACnB;;AAED,AAAA,sBAAsB,CAAC;EACrB,yBAAyB;EACzB,WAAW,EAAE,IAAI;CAClB",
+    "sources": [
+        "carouselArrows.module.scss"
+    ],
+    "names": [],
+    "file": "carouselArrows.module.css"
+}

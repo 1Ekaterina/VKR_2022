@@ -1,0 +1,125 @@
+.account-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  height: calc(100vh - 95px);
+}
+
+.user-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1140px;
+  padding: 0 80px;
+  margin: 20px auto 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.user-name {
+  font-size: 36px;
+  line-height: 80px;
+  font-weight: bold;
+}
+
+.user__form {
+  width: 360px;
+}
+
+.user__form-submit-btn {
+  width: 100%;
+  margin-top: 26px;
+}
+
+.user__form-submit-btn:hover {
+  outline: 1px solid #FF6118;
+}
+
+.user__image {
+  height: 100%;
+}
+
+.user__image-wrapper {
+  margin-right: 90px;
+  border-radius: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 378px;
+          flex: 0 0 378px;
+  height: 378px;
+  width: 378px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.user__image-edit-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  opacity: 0;
+  -webkit-transition: opacity 0.25s;
+  transition: opacity 0.25s;
+  z-index: 1;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 80px;
+  color: #3D3D3D;
+  background-color: rgba(196, 196, 196, 0.5);
+  cursor: pointer;
+}
+
+.user__image-edit-btn:hover {
+  opacity: 1;
+}
+
+.user__input-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.user__input-label {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 80px;
+}
+
+.user__input-field {
+  border-bottom: 2px solid #000;
+  max-width: 244px;
+  font-size: 24px;
+  font-weight: 400;
+  padding-left: 8px;
+}
+
+.user__input-field:focus {
+  outline: none;
+}
+/*# sourceMappingURL=style.module.css.map */

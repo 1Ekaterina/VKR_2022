@@ -1,0 +1,98 @@
+.header {
+  max-width: 1903px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 1000;
+  opacity: 0.9;
+}
+
+.header__logo {
+  margin-bottom: 8px;
+  margin-top: 24px;
+}
+
+.header__logo_text {
+  position: relative;
+  margin-right: 107px;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 60px;
+  color: #FF6118;
+  text-transform: uppercase;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.header__logo_text:hover {
+  color: #000000;
+}
+
+.header__logo_text:active {
+  color: #FF6118;
+}
+
+.header__logo_text::after {
+  content: "TrueFitness";
+  position: absolute;
+  left: -23px;
+  top: 40px;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 20px;
+  color: #000000;
+  text-transform: none;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.header__logo_text:hover:after {
+  color: #FF6118;
+}
+
+.header__logo_text:active:after {
+  color: #000000;
+}
+
+.header__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 45px;
+}
+
+.header__list_item {
+  margin-right: 139px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.header__list_item:hover {
+  opacity: 0.7;
+}
+
+.header__list_item:active {
+  opacity: 1;
+}
+
+.header__list_item:last-child {
+  margin-right: 54px;
+}
+
+.header__special_version {
+  position: relative;
+  top: 24px;
+  width: 40px;
+  height: 23px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.module.css.map */

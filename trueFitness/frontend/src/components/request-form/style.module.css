@@ -1,0 +1,45 @@
+.box {
+  padding: 100px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  min-height: 600px;
+  background: url("../../images/bg/man-rope.png") center/contain no-repeat #000;
+}
+
+.form {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 50px;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+.form-item {
+  max-width: 447px;
+  margin-bottom: 30px;
+}
+
+.text {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.text .big {
+  font-size: 36px;
+  line-height: 50px;
+  font-weight: bold;
+}
+
+.text .highlight {
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=style.module.css.map */

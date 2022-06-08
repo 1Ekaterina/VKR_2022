@@ -1,0 +1,51 @@
+.account-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  height: calc(100vh - 95px);
+}
+
+.user-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1160px;
+  padding: 0 80px;
+  margin: 0 auto;
+}
+
+.photo {
+  width: 378px;
+  height: 378px;
+  border-radius: 50%;
+  margin-right: 90px;
+  display: block;
+}
+
+.user-name {
+  font-size: 36px;
+  line-height: 80px;
+  font-weight: bold;
+}
+
+.footer {
+  width: 100%;
+  min-height: 300px;
+  background: #000;
+  margin-top: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .user-name {
+  display: block;
+  margin-top: auto;
+  color: #fff;
+  margin-left: 30%;
+}
+/*# sourceMappingURL=style.module.css.map */

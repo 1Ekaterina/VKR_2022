@@ -1,0 +1,131 @@
+.form_target {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.form_target_button {
+  width: 100%;
+}
+
+.form_target_item {
+  margin-bottom: 34px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Oswald';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #000000;
+}
+
+.form_target_item_select {
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+  margin-left: 35px;
+}
+
+.form__wrap {
+  margin-top: 64px;
+  margin-bottom: 43px;
+}
+
+.range_subtitle {
+  max-width: 77px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: left;
+}
+
+.survey__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 30px;
+}
+
+.range {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.range__span {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.range__span_black {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.range__spanMin {
+  margin-right: 9px;
+}
+
+.range__spanMax {
+  margin-left: 9px;
+}
+
+.survey__inpRange {
+  width: 195px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.survey__inpRange::-webkit-slider-thumb {
+  background: #FF6118;
+  border: #FF6118;
+  border-radius: 10px/100%;
+  cursor: pointer;
+  width: 10px;
+  height: 10px;
+  margin-top: -5px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.survey__inpRange:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.survey__inpRange_black {
+  background-color: #fff;
+}
+
+.survey__inpRange_black::-webkit-slider-runnable-track {
+  height: 1px;
+  border: 2px solid #FF6118;
+}
+/*# sourceMappingURL=index.module.css.map */
