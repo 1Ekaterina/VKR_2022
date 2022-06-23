@@ -38,7 +38,6 @@ function App(props) {
                     <Route exact path="/" element={<MainPage />} />
                     <Route path="/trainings" element={<Trainings />} />
                     <Route path="/trainings/:trainingUrl" element={<TrainingPage />} />
-                    {/*<Route path="/recipes" element={<Recipes link='recipesCarouselItems' />} />*/}
                     <Route path="/recipes" element={<Recipes />} />
                     <Route path="/recipes/firstCourse" element={<FirstCourse />} />
                     <Route path="/recipes/secondCourse" element={<SecondCourse />} />
